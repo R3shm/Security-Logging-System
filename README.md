@@ -1,48 +1,42 @@
-# Security & Logging System
+Security & Logging System
 
-This Java-based project is designed to enhance facility security by managing user access, logging entry and exit times, and providing administrators with a simple dashboard to monitor activities. The system follows Object-Oriented Programming (OOP) principles to ensure scalability and maintainability.
+Project Description
+This Java-based console application is a Security & Logging System that helps manage user authentication, parking entry/exit logs, dashboards for various user roles, and security features. It is built using Object-Oriented Programming (OOP) principles.
 
-## Features
+Key Features
+User Authentication & Access Control: Secure login for Admin, Faculty, and Student roles.
+Logging Entry & Exit Times: Tracks and stores user entry/exit timestamps.
+Admin Dashboard: Admin can view user logs and generate reports.
+User Parking History: Users can view their own parking history.
+Security & Notifications: Simple notification system for login attempts and unauthorized access.
+Report Generation: Admin can generate a comprehensive usage report.
 
-- **User Authentication & Access Control**  
-  Secure login system for users and admins.
+Technologies Used
+Java (Standard Edition)
+Java OOP (Classes, Objects, Inheritance)
+Java Collections (ArrayList, HashMap)
+Java Time (LocalDateTime)
 
-- **Logging Entry & Exit Times**  
-  Tracks and records each user’s entry and exit times.
+How to Run
+1. Compile and run Main.java.
+2. Log in as admin, faculty, or student with valid credentials.
+3. Explore dashboard features based on user type.
 
-- **Admin Dashboard**  
-  Allows administrators to view all user activity logs.
 
-- **User Parking History**  
-  Users can view their past entry and exit logs.
+Credentials
+Admin: username: admin, password: admin123
+Faculty: username: faculty1, password: pass1
+Student: username: student1, password: pass2
 
-- **Security & Notifications**  
-  Notifies users of important actions and potential issues (simulated in console).
-
-- **Report Generation**  
-  Admins can generate and view reports of user activities.
-
-## Technologies Used
-
-- Java (OOP concepts)
-- Console-based interface (can be upgraded to GUI)
-- File handling for storing user data and logs
-
-## How to Run the Project
-
-1. Make sure you have **Java installed** on your computer.
-2. Open the project folder in any IDE (e.g., IntelliJ, NetBeans, Eclipse) or a simple text editor.
-3. Compile the `.java` file.
-4. Run the main class file.
-5. Follow the instructions displayed in the console.
 
 ## Project Files Included
 
 - Java source code files (`.java`)
 - Project Proposal PDF
-- Sample Screenshots ( added)
+- Sample Screenshots ( added in the pdf)
 
 ## Author
 
 - GitHub: [Security & Logging System Repository](https://github.com/R3shm/Security-Logging-System)
 - Submission for: Java OOP Assignment
+(Created for academic purposes.)
