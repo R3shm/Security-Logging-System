@@ -1,46 +1,64 @@
-#Security & Logging System:
+# Volunteer Management System
 
-Project Description:
-This Java-based console application is a Security & Logging System that helps manage user authentication, parking entry/exit logs, dashboards for various user roles, and security features. It is built using Object-Oriented Programming (OOP) principles.
+## Project Description
 
+The **Volunteer Management System** is a Java-based console application that allows administrators to manage volunteers, organize events, assign tasks, and monitor activity logs. It follows Object-Oriented Programming (OOP) principles for a modular, maintainable, and scalable structure.
 
-Key Features:
-User Authentication & Access Control: Secure login for Admin, Faculty, and Student roles.
-Logging Entry & Exit Times: Tracks and stores user entry/exit timestamps.
-Admin Dashboard: Admin can view user logs and generate reports.
-User Parking History: Users can view their own parking history.
-Security & Notifications: Simple notification system for login attempts and unauthorized access.
-Report Generation: Admin can generate a comprehensive usage report.
+This system is designed for non-profit organizations or community projects where volunteer coordination is essential.
 
+## Key Features
 
-Technologies Used:
-Java (Standard Edition)
-Java OOP (Classes, Objects, Inheritance)
-Java Collections (ArrayList, HashMap)
-Java Time (LocalDateTime)
+- **User Authentication & Access Control**  
+  Secure login for Admin users to manage system functions.
 
+- **Logging Entry & Exit Times**  
+  Tracks user login/logout activity with timestamps to maintain basic system security.
 
-How to Run:
-1. Compile and run Main.java.
-2. Log in as admin, faculty, or student with valid credentials.
-3. Explore dashboard features based on user type.
+- **Admin Dashboard**  
+  - Register new volunteers  
+  - Create and manage events  
+  - Assign tasks to volunteers  
+  - Add volunteers to specific events  
+  - View all volunteers and events  
+  - Generate system usage reports
 
+- **Volunteer Profiles**  
+  - Each volunteer has an ID, name, event history, assigned tasks, and can provide feedback.
 
+- **Event Management**  
+  Admins can create events and add volunteers as participants.
 
-Credentials:
-Admin: username: admin, password: admin123
-Faculty: username: faculty1, password: pass1
-Student: username: student1, password: pass2
+- **System Report**  
+  Displays total number of volunteers, events, and system logs (login/logout).
 
+## Technologies Used
+
+- Java (Standard Edition)
+- Object-Oriented Programming (Classes, Inheritance, Encapsulation)
+- Java Collections (`ArrayList`)
+- Java Date and Time (`Date` class)
+
+## How to Run
+
+1. Clone or download the project files.
+2. Open the project in your preferred Java IDE or use the terminal.
+3. Compile and run `VolunteerManagementSystem.java`.
+4. Log in as the default admin using the credentials below.
+5. Use the Admin Dashboard to explore and manage the system.
+
+## Default Admin Credentials
+
+- **Username**: admin  
+- **Password**: 1234
 
 ## Project Files Included
 
-- Java source code files (`.java`)
+- Java source code (`VolunteerManagementSystem.java` and all related classes)
 - Project Proposal PDF
-- Sample Screenshots ( added in the pdf)
+- Sample Screenshots (included in the PDF)
 
 ## Author
 
 - GitHub: [Security & Logging System Repository](https://github.com/R3shm/Security-Logging-System)
-- Submission for: Java OOP Assignment
+- Submitted for: Java OOP Assignment  
 (Created for academic purposes.)
